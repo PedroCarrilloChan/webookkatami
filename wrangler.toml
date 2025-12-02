@@ -1,0 +1,14 @@
+name = "webhook-chatbot"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+account_id = "5aabf7ece11e3fdaca3b716b5cdea9fd"
+
+# Variables de entorno (opcional - si prefieres no hardcodear los valores en el código)
+# Puedes configurar estos secretos con: wrangler secret put SECRET_KEY
+# [vars]
+# FIELD_ID = "480449"
+# MESSAGE_FLOW_ID = "1709878531050"
+
+# Secretos que debes configurar:
+# wrangler secret put SECRET_KEY
+# wrangler secret put CHATBOT_ACCESS_TOKEN
